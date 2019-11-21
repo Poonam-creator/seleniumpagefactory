@@ -1,4 +1,6 @@
 package com.bdd.pagefactory.page_elements;
 
-public class ResultsPage {
+import com.bdd.pagefactory.driver.DriverManager;
+
+public class ResultsPage extends DriverManager {
 }
