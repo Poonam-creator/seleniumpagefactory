@@ -1,6 +1,5 @@
 import com.bdd.pagefactory.driver.DriverManager;
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
+import org.junit.Before;
 
 public class Hooks {
 
@@ -10,7 +9,7 @@ public class Hooks {
     public void setUp(){
         driverManager.openBrowser();
     }
-    @After
+   // @After
     public void tearDown(){
         driverManager.closeBrowser();
     }
